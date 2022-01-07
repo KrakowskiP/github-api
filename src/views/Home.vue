@@ -13,7 +13,7 @@
         <b-icon-search />
       </button>
     </div>
-    <h6 id="note">Write above your user.</h6>
+    <h6 id="note">Write your username in the field above.</h6>
     <div v-if="filteredRepos && reposAmount != 0">
       <div id="table">
         <b-table
