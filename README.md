@@ -1,19 +1,3 @@
-# app2
+Link to website with project: https://frozen-chamber-58228.herokuapp.com/#/
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Zadanie nie miało z góry narzuconego sposobu rozwiązania ani projektu graficznego. Postawiłem więc na prostotę i przejrzystość. Kolorystyka i rozmieszczenie komponentów nawiązuje do firmy Google. Chciałem by aplikacja była jak najbardziej praktyczna i intuicyjna, nie dodawałem zbędnych, rozpraszających elementów. Tworząc backend użyłem ogólnie dostępnych i sprawdzonych bibliotek, pozwoliło to zaoszczędzić pracy oraz miało pozytywny wpływ na czytelność kodu. Dodatkowym plusem wykorzystania Vue przy tworzeniu aplikacji jest dopasowanie jej do urządzeń mobilnych. Wokół stworzonej aplikacji pozostało wiele miejsca, w przypadku dalszego rozwoju można go wykorzystać pod dodatkowe elementy np. logo, zdjęcie w tle lub marketing. Również wykorzystana forma tabeli w łatwy sposób daje możliwość dodania dodatkowych danych do wyświetlenia.
