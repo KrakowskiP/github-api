@@ -2,7 +2,11 @@
   <div>
     <h1 id="title">Let's find your repository!</h1>
     <div id="searchDiv">
-      <input id="searchInput" type="text" placeholder="Search" v-model="name" />
+      <input id="searchInput" type="text" placeholder="Search" v-model="name"
+        v-on:keyup.enter="
+          getData();
+          clearTable();
+        "/>
       <button
         id="searchBtn"
         v-on:click="
@@ -70,7 +74,7 @@ export default {
             const repos = response.data;
 
             this.filteredRepos = repos.items.map((o) => ({
-              User: o.name,
+              repository: o.name,
               stars: o.stargazers_count,
             }));
 
